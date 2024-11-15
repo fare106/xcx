@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>905</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>431</width>
+      <height>831</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+    border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>705</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+color: rgb(255, 255, 255);
+    border-radius: 10px;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>770</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+  background-image: url(G:/PROGRAM/pyt/buton/210.png);;
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/209.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    background-color: rgb(215, 215, 215); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/211.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>770</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/192a.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/191a.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    background-color: rgb(215, 215, 215); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/193a.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>770</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/198.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/197.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    background-color: rgb(215, 215, 215); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/197.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>770</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/204a.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/205a.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    background-color: rgb(215, 215, 215); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/206.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>770</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/216a.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+    background-image: url(G:/PROgram/pyt/buton/217a.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    background-color: rgb(215, 215, 215); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/217a.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>130</y>
+      <width>371</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(1, 1, 1, 1));
+color: rgb(255, 255, 255);
+
+    border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>640</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/223.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/223a.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    background-color: rgb(215, 215, 215); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/pyt/buton/225.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>745</y>
+      <width>300</width>
+      <height>1</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(150, 150, 150);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>710</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>20</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background-image: url(&quot;G:/PROGRAM/resım/1pano.png&quot;);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the image to cover the QLabel */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
+      <y>30</y>
+      <width>25</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+border-image: url(G:/PROGRAM/resım/ks1.png) 0 0 0 0 stretch stretch;
+color: white; /* veya color: #FFFFFF; */
+border-radius:15px;
+
+}
+QPushButton:hover {
+
+  
+color: black; /* veya color: #FFFFFF; */
+border-radius:15px;
+border-image: url(G:/PROGRAM/resım/kuckız.png) 0 0 0 0 stretch stretch;
+}
+
+
+
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>720</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+   border-image: url(G:/PROGRAM/resım/r33.png) 0 0 0 0 stretch stretch;
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+   
+    border-radius: 10px;
+  border-image: url(G:/PROGRAM/resım/r33a.png) 0 0 0 0 stretch stretch;
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    
+    border-radius: 10px;
+    border-image: url(G:/PROGRAM/resım/r33a.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>405</x>
+      <y>15</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+border-image: url(G:/PROGRAM/resım/buykız.png) 0 0 0 0 stretch stretch;
+border-radius:5px;
+
+}
+QPushButton:hover {
+
+  
+color: black; /* veya color: #FFFFFF; */
+border-radius:5px;
+border-image: url(G:/PROGRAM/resım/bbb.png) 0 0 0 0 stretch stretch;
+}
+
+
+
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_77">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>720</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+   border-image: url(G:/PROGRAM/resım/ınd.png) 0 0 0 0 stretch stretch;
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+   
+    border-radius: 10px;
+  border-image: url(G:/PROGRAM/resım/ınd2.png) 0 0 0 0 stretch stretch;
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    
+    border-radius: 10px;
+    border-image: url(G:/PROGRAM/resım/ınd.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_23">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>770</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(0, 0, 0, 0));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+   border-image: url(G:/PROGRAM/resım/v1.png) 0 0 0 0 stretch stretch;
+    background-repeat: no-repeat;
+    background-position: center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+   
+    border-radius: 10px;
+  border-image: url(G:/PROGRAM/resım/v2.png) 0 0 0 0 stretch stretch;
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+    
+    border-radius: 10px;
+    border-image: url(G:/PROGRAM/resım/v1.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 0), stop:0.375 rgba(0, 0, 0, 0), stop:0.835227 rgba(1, 2, 1, 1));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Kenarları oluşturmak için */
+    border-left: 10px solid transparent; /* Sol kenara 10 piksel genişlik bırakır */
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/resım/bu1.png);
+    background-repeat: no-repeat;
+    background-position: left center; /* Resmi sol ortada konumlandırır */
+    color: rgb(250, 250, 250);
+}
+
+QTextEdit:hover {
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/resım/bu2.png);
+    color: rgb(250, 250, 250);
+}
+
+QTextEdit:pressed {
+    background-color: rgb(10, 10, 10); /* Tıklama efekti için arka plan rengi */
+    border-radius: 10px;
+    background-image: url(G:/PROGRAM/resım/bu1.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(250, 250, 250); /* Tıklama durumunda metin rengi */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>6</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 150));
+    color: white; /* veya color: #FFFFFF; */
+    border: 2px solid transparent; /* Butonun kenarlarını oluşturmak için */
+    border-right: 20px solid transparent; /* Sol kenara 10 piksel genişliğinde bir alan bırakır */
+    padding-left: 10px; /* Resim alanını içeri taşımak için */
+    border-radius: 10px;
+    background-image: url(C:/pyt/buton/181.png);
+    background-repeat: no-repeat;
+    background-position: right center; /* Resmi sol ortada konumlandırır */
+    color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 150));
+    border-radius: 10px;
+    background-image: url(C:/pyt/buton/182.png);
+    color: rgb(250, 250, 250);
+}
+
+QPushButton:pressed {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.715909, stop:0 rgba(0, 0, 0, 9), stop:0.375 rgba(0, 0, 0, 50), stop:0.835227 rgba(0, 0, 0, 150));
+    border-radius: 10px;
+    background-image: url(C:/pyt/buton/178.png); /* Tıklama durumunda gösterilecek resim */
+    color: rgb(200, 200, 200); /* Tıklama durumunda metin rengi */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Başlat</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_1</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_9</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>listView</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>pushButton_77</zorder>
+   <zorder>pushButton_23</zorder>
+   <zorder>textEdit_2</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>label_10</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

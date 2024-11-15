@@ -1,0 +1,29 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    instance_type: mac_mini
+    max_build_duration: 60
+    environment:
+      vars:
+        APP_STORE_CONNECT_ISSUER_ID: <your_issuer_id>
+        APP_STORE_CONNECT_KEY_IDENTIFIER: <your_key_id>
+        APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(********)
+    triggering:
+      events:
+        - push
+        - pull_request
+    scripts:
+      - name: Install dependencies
+        script: |
+          flutter pub get
+      - name: Build iOS app
+        script: |
+          flutter build ios --release --no-codesign
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        api_key: 
+          issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+          key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+          private_key: $APP_STORE_CONNECT_PRIVATE_KEY

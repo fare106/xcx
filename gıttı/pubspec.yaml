@@ -1,0 +1,30 @@
+name: simulated_flutter_project
+description: A simulated Flutter project for iOS compatibility
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2  # iOS uygulamaları için gerekli ikon paketi
+  characters: 1.3.0  # Flutter SDK'nın gerektirdiği sürüm
+  collection: 1.18.0  # Flutter SDK'nın gerektirdiği sürüm
+  material_color_utilities: 0.11.1  # Flutter SDK'nın gerektirdiği sürüm
+  meta: 1.15.0  # Flutter SDK'nın gerektirdiği sürüm
+
+flutter:
+  assets:
+    - assets/1197.png
+    - assets/as.png
+    - assets/gg.png
+    - assets/gìff-5.gif
+    - assets/gìff-66.gif
+    - assets/hesap.db
+    - assets/HSPMAK1.ui
+    - assets/hspmakx.pyw
+    - assets/KKP5.png
+    - assets/kucbey.png
+    - assets/s.png
+    - assets/sa.png
